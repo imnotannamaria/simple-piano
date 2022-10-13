@@ -89,4 +89,8 @@
   .teclasContainer {
     gap: 2px;
   }
+
+  .footer {
+    font-size: 1rem;
+  }
 }
