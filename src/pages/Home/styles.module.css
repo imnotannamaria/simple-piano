@@ -1,0 +1,57 @@
+.header {
+  background-color: #26272D;
+  padding: 2rem;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content {
+  display: flex;
+}
+
+.sideContent {
+  padding: 8rem 4rem;
+  min-width: 160px;
+  background-color: #26272D;
+  border-radius: 0 0 10px 10px;
+}
+
+.teclasContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #26272D;
+}
+
+.footer{
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  padding: 0 1rem;
+
+  font-size: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer strong{
+  color: #6445BF;
+}
+
+.badge a {
+  margin-right: 1rem;
+}
+
+.badge a:hover {
+  opacity: 0.5;
+}
