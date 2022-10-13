@@ -6,14 +6,13 @@ export function Home() {
   return (
     <>
       <header className={styles.header}>
-        <PianoKeys size={32} color='#8E8E8E'/>
+        <PianoKeys size={30} color='#8E8E8E'/>
         <h1>Simple Piano</h1>
-        <PianoKeys size={32} color='#8E8E8E'/>
+        <PianoKeys size={30} color='#8E8E8E'/>
       </header>
       <main className={styles.content}>
         <div className={styles.sideContent}>
-          {/*<PianoKeys size={32} color='#8E8E8E'/> */}
-          <MusicNotesSimple size={30} />
+          <MusicNotesSimple size={25} />
         </div>
         <div className={styles.teclasContainer}>
           <Tecla nota='C'/>
@@ -25,7 +24,7 @@ export function Home() {
           <Tecla nota='B'/>
         </div>
         <div className={styles.sideContent}>
-          <MusicNote size={30} color='#8E8E8E'/>
+          <MusicNote size={25} color='#8E8E8E'/>
         </div>
       </main>
       <footer className={styles.footer}>

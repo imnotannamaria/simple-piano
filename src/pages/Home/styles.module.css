@@ -3,6 +3,8 @@
   padding: 2rem;
   text-align: center;
 
+  border-radius: 10px 10px 0 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,4 +56,31 @@
 
 .badge a:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 1050px) {
+  .sideContent {
+    min-width: 0;
+    padding: 8rem 2rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .sideContent {
+    padding: 8rem 1rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .teclasContainer {
+    height: 100%;
+  }
+
+  .sideContent {
+    padding: 0 1rem;
+  }
 }
