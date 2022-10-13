@@ -15,13 +15,13 @@ export function Home() {
           <MusicNotesSimple size={25} />
         </div>
         <div className={styles.teclasContainer}>
-          <Tecla nota='C'/>
-          <Tecla nota='D'/>
-          <Tecla nota='E'/>
-          <Tecla nota='F'/>
-          <Tecla nota='G'/>
-          <Tecla nota='A'/>
-          <Tecla nota='B'/>
+          <Tecla nota='Dó'/>
+          <Tecla nota='Ré'/>
+          <Tecla nota='Mi'/>
+          <Tecla nota='Fá'/>
+          <Tecla nota='Sol'/>
+          <Tecla nota='Lá'/>
+          <Tecla nota='Si'/>
         </div>
         <div className={styles.sideContent}>
           <MusicNote size={25} color='#8E8E8E'/>

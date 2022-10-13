@@ -11,25 +11,25 @@ import errorSound from '../assets/error.mp3';
 
 export function ReturnNoteSound(note: string) {
   switch (note) {
-    case 'C':
+    case 'Dó':
       const [C] = useSound(doSound);
       return C;
-    case 'D':
+    case 'Ré':
       const [D] = useSound(reSound);
       return D;
-    case 'E':
+    case 'Mi':
       const [E] = useSound(miSound);
       return E;
-    case 'F':
+    case 'Fá':
       const [F] = useSound(faSound);
       return F;
-    case 'G':
+    case 'Sol':
       const [G] = useSound(solSound);
       return G;
-    case 'A':
+    case 'Lá':
       const [A] = useSound(laSound);
       return A;
-    case 'B':
+    case 'Si':
       const [B] = useSound(siSound);
       return B;
     default: 
